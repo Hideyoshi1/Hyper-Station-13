@@ -360,8 +360,8 @@ Junior Security Officer
 	department_head = list("Head of Security")
 	department_flag = ENGSEC
 	faction = "Station"
-	total_positions = 5 //Handled in /datum/controller/occupations/proc/setup_officer_positions()
-	spawn_positions = 5 //Handled in /datum/controller/occupations/proc/setup_officer_positions()
+	total_positions = 0 //Handled in /datum/controller/occupations/proc/setup_officer_positions()
+	spawn_positions = 0 //Handled in /datum/controller/occupations/proc/setup_officer_positions()
 	supervisors = "the head of security, and the head of your assigned department (if applicable), and any other senior officer"
 	selection_color = "#ffeeee"
 	minimal_player_age = 3
